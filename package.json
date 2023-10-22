@@ -1,0 +1,25 @@
+{
+  "name": "cvscode",
+  "displayName": "CVSCode",
+  "description": "A fast 100% dynamic scripting language written with TypeScript",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cvs",
+      "aliases": ["CVSCode", "cvs"],
+      "extensions": [".cvs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cvs",
+      "scopeName": "source.cvs",
+      "path": "./syntaxes/cvs.tmLanguage.json"
+    }]
+  }
+}
