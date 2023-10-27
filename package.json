@@ -1,6 +1,6 @@
 {
   "name": "cvscode",
-  "displayName": "CVSCode",
+  "displayName": "CVSCode Formatting",
   "description": "A fast 100% dynamic scripting language written with TypeScript",
   "version": "0.0.1",
   "engines": {
