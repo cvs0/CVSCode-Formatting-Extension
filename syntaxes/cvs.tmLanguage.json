@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.cvs",
-				"match": "\\b(if|while|for|return|fn|let|const)\\b"
+				"match": "\\b(if|while|for|return|fn|let|const|else|import|export)\\b"
 			}]
 		},
 		"strings": {
